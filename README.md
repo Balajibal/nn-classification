@@ -204,12 +204,12 @@ x_single_prediction = np.argmax(ai_brain.predict(x_test_scaled[1:2,:]), axis=1)
 print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
 ```
-## <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Dataset Information
+## Dataset Information
 ![Screenshot (406)](https://user-images.githubusercontent.com/75243072/189541346-77d5341c-acb5-4f70-88d9-6643d55d3bea.png)
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
 ![Screenshot (408)](https://user-images.githubusercontent.com/75243072/189541738-7db9ce2e-d544-4fd5-86b5-922ab0a4dd3d.png)
-### <br><br><br>Classification Report
+### Classification Report
 ![Screenshot (403)](https://user-images.githubusercontent.com/75243072/189541786-dc10b960-ab16-4746-83e9-1d0d52060e45.png)
 ### Confusion Matrix
 ![Screenshot (409)](https://user-images.githubusercontent.com/75243072/189541820-492551d0-dbf5-4a34-b5e9-aace184e6e02.png)
