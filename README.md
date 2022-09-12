@@ -33,36 +33,26 @@ Loading the dataset.
 Checking the null values and converting the string datatype into integer or float datatype using label encoder.
 
 ### STEP 3:
-Write your own steps
 
-## PROGRAM
 Split the dataset into training and testing.
 
-Include your code here
 ### STEP 4:
 
-## Dataset Information
 Create MinMaxScaler objects,fit the model and transform the data.
 
-Include screenshot of the dataset
 ### STEP 5:
 
-## OUTPUT
-Build the Neural Network Model and compile the model.
+Include screenshot of the dataset
 
-### Training Loss, Validation Loss Vs Iteration Plot
 ### STEP 6:
 
-Include your plot here
 Train the model with the training data.
 
-### Classification Report
 ### STEP 7:
 
 Include Classification Report here
 Plot the training loss and validation loss.
 
-### Confusion Matrix
 ### STEP 8:
 
 Include confusion matrix here
