@@ -78,8 +78,9 @@ Predict the new sample data.
 
 ## PROGRAM
 ```python
-# Developed By:KUMARAVEL.V
-# Register Number:212220230027
+# Developed By: Balaji N
+# Register Number:212220230006
+# Import required packages
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
@@ -98,6 +99,7 @@ from sklearn.preprocessing import OrdinalEncoder
 from sklearn.metrics import classification_report,confusion_matrix
 import numpy as np
 import matplotlib.pylab as plt
+# Load the csv file
 df=pd.read_csv("customers.csv")
 df.head()
 df.columns
