@@ -11,7 +11,6 @@
 
 To develop a neural network classification model for the given dataset.
 
-## Problem Statement
 ## <br><br><br><br><br><br><br>Problem Statement
 
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
@@ -20,9 +19,6 @@ In their existing market, the sales team has classified all customers into 4 seg
 
 You are required to help the manager to predict the right group of the new customers.
 
-## Neural Network Model
-
-Include the neural network model diagram.
 ## <br><br><br><br><br><br><br>Neural Network Model
 ![Screenshot (405)](https://user-images.githubusercontent.com/75243072/189541041-b78af6a3-b6b0-426b-9130-a8b88c6b167f.png)
 
