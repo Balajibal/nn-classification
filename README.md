@@ -105,6 +105,7 @@ df.head()
 df.columns
 df.dtypes
 df.shape
+# Check for null values and clean the dataset
 df.isnull().sum()
 df_clean=df.dropna(axis=0)
 df_clean.isnull().sum()
@@ -117,6 +118,7 @@ df_clean['Profession'].unique()
 df_clean['Spending_Score'].unique()
 df_clean['Var_1'].unique()
 df_clean['Segmentation'].unique()
+# Apply encoders
 category_list=[
     ['Male', 'Female'],
     ['No', 'Yes'],
@@ -142,6 +144,7 @@ df1 = df1.drop('ID',axis=1)
 df1 = df1.drop('Var_1',axis=1)
 df1.dtypes
 corr = df1.corr()
+# Find co-relation between fields
 sns.heatmap(corr, 
         xticklabels=corr.columns,
         yticklabels=corr.columns,
@@ -170,6 +173,7 @@ y.shape
 y1[0]
 y[0]
 x.shape
+# train the model
 x_train,x_test,y_train,y_test=train_test_split(x,y,
                                                test_size=0.33,
                                                random_state=50)
@@ -203,6 +207,7 @@ ai_brain.fit(x_train_scaled,y_train,
  metrics = pd.DataFrame(ai_brain.history.history)
  metrics.tail()
  metrics.plot()
+ # Predictions
 x_test_predictions = np.argmax(ai_brain.predict(x_test_scaled), axis=1)
 x_test_predictions.shape
 y_test_truevalue = np.argmax(y_test,axis=1)
