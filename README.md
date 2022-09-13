@@ -211,7 +211,7 @@ print(le.inverse_transform(x_single_prediction))
 ![Screenshot (408)](https://user-images.githubusercontent.com/75243072/189541738-7db9ce2e-d544-4fd5-86b5-922ab0a4dd3d.png)
 ### Classification Report
 ![Screenshot (403)](https://user-images.githubusercontent.com/75243072/189541786-dc10b960-ab16-4746-83e9-1d0d52060e45.png)
-### Confusion Matrix
+<br><br><br><br><br><br>### Confusion Matrix
 ![Screenshot (409)](https://user-images.githubusercontent.com/75243072/189541820-492551d0-dbf5-4a34-b5e9-aace184e6e02.png)
 ### New Sample Data Prediction
 ![Screenshot (404)](https://user-images.githubusercontent.com/75243072/189541858-2f4b8d74-de7e-46da-8094-1eb376d9e32d.png)
