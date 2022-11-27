@@ -202,7 +202,7 @@ print(le.inverse_transform(x_single_prediction))
 ```
 ## Dataset Information
 ![Screenshot (406)](https://user-images.githubusercontent.com/75243072/189541346-77d5341c-acb5-4f70-88d9-6643d55d3bea.png)
-## <br><br><br><br><br> OUTPUT
+## <br><br><br><br><br><br><br> OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
 ![Screenshot (408)](https://user-images.githubusercontent.com/75243072/189541738-7db9ce2e-d544-4fd5-86b5-922ab0a4dd3d.png)
 ### Classification Report
