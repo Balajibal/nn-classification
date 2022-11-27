@@ -1,10 +1,6 @@
-# Developing a Neural Network Classification Model
-### EXP NO: 02
-
-### Date
-
+### EX NO : 02
+### DATE  : 11.09.2022
 # <p align = "center"> Developing a Neural Network Classification Model </p>
-
 
 
 ## AIM
